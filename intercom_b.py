@@ -11,7 +11,7 @@ import time
 
 MY_NAME = "Intercom B"
 TARGET_NAME = "Intercom A"
-TARGET_IP = "192.168.1.120"
+TARGET_IP = "192.168.1.119"
 
 PORT = 5000
 
