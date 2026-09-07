@@ -9,8 +9,8 @@ import time
 
 # ---------------- SETTINGS ----------------
 
-MY_NAME = "Intercom A"
-TARGET_NAME = "Intercom B"
+MY_NAME = "Intercom B"
+TARGET_NAME = "Intercom A"
 TARGET_IP = "192.168.1.120"
 
 PORT = 5000
