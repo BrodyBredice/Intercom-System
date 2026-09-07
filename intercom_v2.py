@@ -56,6 +56,8 @@ def led_off():
 
 buzzer = Buzzer(BUZZER_PIN)
 
+led_ready()
+
 audio_lock = threading.Lock()
 stop_event = threading.Event()
 
@@ -221,7 +223,7 @@ def play_message():
         INCOMING_FILE
     ])
 
-    led.off()
+    led_ready()
 
     if result.returncode != 0:
         print(f"Playback failed with code {result.returncode}.")
